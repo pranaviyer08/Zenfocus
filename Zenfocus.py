@@ -32,8 +32,7 @@ class ZenFocusApp(ctk.CTk):
         self.configure(fg_color=COLORS["bg_window"])
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-        # 2. Initialize State Variables (Attributes instead of a Dictionary)
-        # These are now "self.variable" instead of app_state["variable"]
+        # 2. Initialize State Variables 
         self.current_view = "Timer"
         self.timer_running = False
         self.timer_seconds = 25 * 60
