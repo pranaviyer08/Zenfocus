@@ -1,20 +1,7 @@
 {
     "sessions_completed": 0,
-    "tasks": [
-        {
-            "text": "task 1",
-            "completed": true
-        },
-        {
-            "text": "task 2",
-            "completed": true
-        },
-        {
-            "text": "task 3",
-            "completed": true
-        }
-    ],
+    "tasks": [],
     "notes_content": "",
     "links": [],
-    "last_date": "2025-12-13"
+    "last_date": ""
 }
