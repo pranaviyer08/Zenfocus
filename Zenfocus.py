@@ -160,7 +160,7 @@ class ZenFocusApp(ctk.CTk):
         if self.timer_running and self.timer_seconds > 0:
             self.timer_seconds -= 1
             self.update_timer_ui()
-            self.after(1000, self.timer_countdown)  # 'after' is a method of the class now
+            self.after(1000, self.timer_countdown) # 'after' is a method of the class now
         elif self.timer_seconds == 0:
             self.timer_running = False
             self.btn_toggle.configure(text="Start Focus", fg_color=COLORS["accent"])
